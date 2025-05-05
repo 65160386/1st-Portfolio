@@ -161,7 +161,7 @@ export const ContactSection = () => {
                 />
               </div>
 
-              <button type="button" className={cn("cosmic-button w-full flex items-center justify-center gap-10")}> 
+              <button type="button" className={cn("cosmic-button w-full flex items-center justify-center gap-2")}> 
                 <Send />
                 Send Message</button>
 
