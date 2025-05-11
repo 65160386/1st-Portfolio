@@ -11,19 +11,13 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto,
-              perspiciatis.
+              It's Peerawat Pholutis 
             </h3>
             <p className="text-muted-foreground">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
-              soluta facere ab aliquam doloribus perspiciatis eveniet ducimus
-              rem delectus qui?
+            ITDI students, usually IT majors, will learn a variety of fundamentals, such as Windows system management principles, vocabulary about system design before performing UXUI analysis, agile operation teamwork or data analytics.
             </p>
             <p className="text-muted-foreground">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Reprehenderit, vero minus. Dicta, dolorem veritatis nesciunt est
-              non obcaecati aliquam. Autem, harum rem optio dignissimos eius
-              consectetur voluptatum. Eligendi, omnis culpa.
+              After graduation, I had my first imagination. I thought I would get learning a lot of new things and gain experience with more technology in several ways, and get better every day.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -47,8 +41,8 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                    <h4 className="font-semibold text-lg">Web Dev</h4>
-                    <p className="text-muted-foreground">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eaque id neque? Ab ducimus earum illum velit unde alias expedita?</p>
+                    <h4 className="font-semibold text-lg">Website Developer</h4>
+                    <p className="text-muted-foreground">I like to build websites with my full-stack skills to clear some pain points for build a new way to make something better.</p>
                 </div>
               </div>
             </div>
@@ -60,7 +54,7 @@ export const AboutSection = () => {
                 </div>
                 <div className="text-left">
                     <h4 className="font-semibold text-lg">IT student</h4>
-                    <p className="text-muted-foreground">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eaque id neque? Ab ducimus earum illum velit unde alias expedita?</p>
+                    <p className="text-muted-foreground">I study a variety of subjects but am always ready to seek new experiences to improve my skills.</p>
                 </div>
               </div>
             </div>
@@ -71,8 +65,8 @@ export const AboutSection = () => {
                   <Briefcase className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                    <h4 className="font-semibold text-lg">No experience</h4>
-                    <p className="text-muted-foreground">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eaque id neque? Ab ducimus earum illum velit unde alias expedita?</p>
+                    <h4 className="font-semibold text-lg">2025: No experience</h4>
+                    <p className="text-muted-foreground">I am currently looking for an internship and am ready to learn new things.</p>
                 </div>
               </div>
             </div>

@@ -12,6 +12,7 @@ const skills = [
   { name: "Node.js", level: 30, category: "backend" },
   { name: "Express", level: 25, category: "backend" },
   { name: "Mysql", level: 30, category: "backend" },
+  { name: "PostgreSQL", level: 15, category: "backend" },
 
   //Tool
   { name: "Git/GitHub", level: 22, category: "tools" },
@@ -22,13 +23,10 @@ const skills = [
 
   //etc
   { name: "Window Admin", level: 25, category: "etc" },
-  { name: "Linux", level: 15, category: "etc" },
+  { name: "Linux Admin", level: 15, category: "etc" },
   { name: "Data Analytics", level: 35, category: "etc" },
   { name: "Project management", level: 15, category: "etc" },
   { name: "System Analysis and Design", level: 20, category: "etc" },
-  { name: "Valorant", level: 50, category: "etc" },
-  { name: "PUBG", level: 70, category: "etc" },
-  { name: "FC Online", level: 65, category: "etc" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools", "etc"];
@@ -42,7 +40,7 @@ export const SkillsSection = () => {
     <section id="skills" className="py-24 px-4 relative bg-secondary/30">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-          My <span className="text-primary"> Skills 🤡</span>
+          My <span className="text-primary"> Skills</span>
         </h2>
 
         <div className="flex flex-wrap justify-center gap-4 mb-12">

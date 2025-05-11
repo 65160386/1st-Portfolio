@@ -20,8 +20,7 @@ export const ContactSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est id,
-          distinctio aut illo temporibus provident!
+          This is the contact channel. I would like to get to know you.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -31,53 +30,59 @@ export const ContactSection = () => {
             <div className="space-y-6 justify-center">
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Mail className="h-6 w-6 text-primary" />
+                  <Mail className="size-7 text-primary" />
                   {""}
                 </div>
                 <div>
-                  <h4 className="fonts-medium"> Email: </h4>
+                  <h4 className="fonts-medium"> Email: 
+                  
                   <a
                     href=""
                     className="text-muted-foreground hover:text-primary transition-colors"
-                  >
+                    >
                     {" "}
-                    65160386@go.buu.ac.th
+                     65160386@go.buu.ac.th
                   </a>
+                    </h4>
                 </div>
               </div>
 
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Phone className="h-6 w-6 text-primary" />
+                  <Phone className="size-7 text-primary" />
                   {""}
                 </div>
                 <div>
-                  <h4 className="fonts-medium"> Phone: </h4>
+                  <h4 className="fonts-medium"> Phone: 
+
                   <a
                     href=""
                     className="text-muted-foreground hover:text-primary transition-colors"
-                  >
+                    >
                     {" "}
-                    +66 23-456-7891
+                     +66 23-456-7891
                   </a>
+                    </h4>
                 </div>
               </div>
 
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <MapPin className="h-6 w-6 text-primary" />
+                  <MapPin className="size-7 text-primary" />
                   {""}
                 </div>
                 <div>
-                  <h4 className="fonts-medium"> Location: </h4>
+                  <h4 className="fonts-medium"> Location: 
                   <a
                     href="https://www.google.com/maps/place/%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%9A%E0%B8%B9%E0%B8%A3%E0%B8%9E%E0%B8%B2/@13.2859354,100.9255796,17z/data=!3m1!4b1!4m6!3m5!1s0x3102b4e7c351968b:0xf03d84bc0dd30c0!8m2!3d13.2859354!4d100.9255796!16zL20vMDZieWMy?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D"
                     className="text-muted-foreground hover:text-primary transition-colors"
                     target="_blank"
-                  >
+                    >
                     {" "}
                     Burapha University, Bangsaen Muang District, Chon Buri, Thailand
                   </a>
+                      </h4>
+                    
                 </div>
               </div>
             </div>
@@ -87,7 +92,7 @@ export const ContactSection = () => {
                 Connect with Me
               </h4>
               <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
+                <a href="https://www.linkedin.com/in/me/" target="_blank">
                   <Linkedin />
                 </a>
                 <a href="#" target="_blank">
